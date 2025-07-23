@@ -19,8 +19,10 @@ const Header = () => {
           <a href="#reviews" className="hover:text-ai-blue transition-colors">Отзывы</a>
           <a href="#faq" className="hover:text-ai-blue transition-colors">FAQ</a>
         </nav>
-        <Button className="bg-gradient-to-r from-ai-blue to-ai-purple hover:from-ai-purple hover:to-ai-blue">
-          Начать бесплатно
+        <Button className="bg-gradient-to-r from-ai-blue to-ai-purple hover:from-ai-purple hover:to-ai-blue" asChild>
+          <a href="https://t.me/syntxaibot?start=aff_797685317" target="_blank" rel="noopener noreferrer">
+            Начать бесплатно
+          </a>
         </Button>
       </div>
     </header>

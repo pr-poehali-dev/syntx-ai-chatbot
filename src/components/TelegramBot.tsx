@@ -57,8 +57,10 @@ const TelegramBot = () => {
                   </div>
                   <h3 className="font-montserrat font-bold text-xl">Telegram Bot</h3>
                   <p className="text-sm text-gray-400">Все возможности AI прямо в мессенджере</p>
-                  <Button className="w-full bg-gradient-to-r from-ai-blue to-ai-purple hover:from-ai-purple hover:to-ai-blue">
-                    Запустить бота
+                  <Button className="w-full bg-gradient-to-r from-ai-blue to-ai-purple hover:from-ai-purple hover:to-ai-blue" asChild>
+                    <a href="https://t.me/syntxaibot?start=aff_797685317" target="_blank" rel="noopener noreferrer">
+                      Запустить бота
+                    </a>
                   </Button>
                 </div>
               </div>

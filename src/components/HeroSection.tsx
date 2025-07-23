@@ -21,14 +21,12 @@ const HeroSection = () => {
             Создавайте изображения, видео, музыку и тексты с помощью передовых AI-технологий. 
             Весь функционал доступен прямо в Telegram.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button size="lg" className="bg-gradient-to-r from-ai-blue to-ai-purple hover:from-ai-purple hover:to-ai-blue text-lg px-8 py-3">
-              <Icon name="MessageSquare" size={20} className="mr-2" />
-              Попробовать в Telegram
-            </Button>
-            <Button size="lg" variant="outline" className="border-ai-blue text-ai-blue hover:bg-ai-blue hover:text-white text-lg px-8 py-3">
-              <Icon name="Play" size={20} className="mr-2" />
-              Смотреть демо
+          <div className="flex justify-center">
+            <Button size="lg" className="bg-gradient-to-r from-ai-blue to-ai-purple hover:from-ai-purple hover:to-ai-blue text-lg px-8 py-3" asChild>
+              <a href="https://t.me/syntxaibot?start=aff_797685317" target="_blank" rel="noopener noreferrer">
+                <Icon name="MessageSquare" size={20} className="mr-2" />
+                Попробовать в Telegram
+              </a>
             </Button>
           </div>
         </div>

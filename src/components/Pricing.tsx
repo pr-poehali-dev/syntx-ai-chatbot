@@ -59,8 +59,10 @@ const Pricing = () => {
                     <span className="text-gray-300">{feature}</span>
                   </div>
                 ))}
-                <Button className={`w-full mt-6 ${plan.highlight ? 'bg-gradient-to-r from-ai-blue to-ai-purple hover:from-ai-purple hover:to-ai-blue' : 'bg-white/10 hover:bg-white/20'}`}>
-                  {plan.name === 'Корпоративный' ? 'Связаться с нами' : 'Выбрать план'}
+                <Button className={`w-full mt-6 ${plan.highlight ? 'bg-gradient-to-r from-ai-blue to-ai-purple hover:from-ai-purple hover:to-ai-blue' : 'bg-white/10 hover:bg-white/20'}`} asChild>
+                  <a href="https://t.me/syntxaibot?start=aff_797685317" target="_blank" rel="noopener noreferrer">
+                    {plan.name === 'Корпоративный' ? 'Связаться с нами' : 'Выбрать план'}
+                  </a>
                 </Button>
               </CardContent>
             </Card>

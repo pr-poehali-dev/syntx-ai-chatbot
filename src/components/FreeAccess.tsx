@@ -18,8 +18,10 @@ const FreeAccess = () => {
               <p className="text-gray-300">
                 SyntX бесплатно доступен всем новым пользователям с базовым набором функций. SyntX AI бесплатно можно использовать для ознакомления с возможностями платформы.
               </p>
-              <Button className="w-full bg-ai-blue hover:bg-ai-blue/80">
-                Начать бесплатно
+              <Button className="w-full bg-ai-blue hover:bg-ai-blue/80" asChild>
+                <a href="https://t.me/syntxaibot?start=aff_797685317" target="_blank" rel="noopener noreferrer">
+                  Начать бесплатно
+                </a>
               </Button>
             </CardContent>
           </Card>
@@ -32,8 +34,10 @@ const FreeAccess = () => {
               <p className="text-gray-300">
                 SyntX AL бесплатно предлагает ограниченный, но функциональный набор инструментов для создания контента. Это отличный способ протестировать сервис перед покупкой полной подписки.
               </p>
-              <Button className="w-full bg-ai-purple hover:bg-ai-purple/80">
-                Попробовать AL
+              <Button className="w-full bg-ai-purple hover:bg-ai-purple/80" asChild>
+                <a href="https://t.me/syntxaibot?start=aff_797685317" target="_blank" rel="noopener noreferrer">
+                  Попробовать AL
+                </a>
               </Button>
             </CardContent>
           </Card>
