@@ -164,6 +164,187 @@ const Index = () => {
         </div>
       </section>
 
+      {/* About Platform Section */}
+      <section className="py-20 px-4 bg-white/5">
+        <div className="container mx-auto max-w-4xl">
+          <div className="text-center mb-16">
+            <h1 className="text-4xl md:text-6xl font-montserrat font-bold mb-8 bg-gradient-to-r from-white via-ai-blue to-ai-purple bg-clip-text text-transparent">
+              SyntX AI: Универсальная нейросеть для творчества и бизнеса
+            </h1>
+          </div>
+          
+          <div className="space-y-12">
+            <div>
+              <h2 className="text-3xl font-montserrat font-bold mb-6 text-ai-blue">
+                Что такое SyntX AI и почему это лучший выбор для работы с ИИ
+              </h2>
+              <div className="space-y-4 text-lg text-gray-300 leading-relaxed">
+                <p>
+                  SyntX AI — это мощная многофункциональная нейросеть, которая объединяет в себе возможности создания изображений, видео, музыки и текстов. Платформа SyntX предоставляет доступ к передовым AI-технологиям через удобный интерфейс, делая искусственный интеллект доступным каждому пользователю.
+                </p>
+                <p>
+                  Нейросеть SyntX выделяется среди конкурентов благодаря интеграции с популярными мессенджерами. Бот SyntX в Telegram позволяет работать с AI-инструментами прямо в привычном интерфейсе, не переходя на внешние сайты.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Telegram Bot Section */}
+      <section className="py-20 px-4">
+        <div className="container mx-auto max-w-4xl">
+          <h2 className="text-3xl md:text-4xl font-montserrat font-bold mb-8 text-center">
+            SyntX AI бот в Telegram: <span className="text-ai-purple">возможности и преимущества</span>
+          </h2>
+          
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="space-y-6">
+              <p className="text-lg text-gray-300 leading-relaxed">
+                Телеграм бот SyntX — это революционный способ взаимодействия с искусственным интеллектом. SyntX AI бот предоставляет полный функционал платформы прямо в мессенджере:
+              </p>
+              
+              <ul className="space-y-3">
+                <li className="flex items-start">
+                  <Icon name="CheckCircle" size={20} className="text-ai-blue mr-3 mt-1 flex-shrink-0" />
+                  <span className="text-gray-300">Генерация изображений и нейрофотосессия в SyntX</span>
+                </li>
+                <li className="flex items-start">
+                  <Icon name="CheckCircle" size={20} className="text-ai-blue mr-3 mt-1 flex-shrink-0" />
+                  <span className="text-gray-300">Создание видеоконтента и анимации</span>
+                </li>
+                <li className="flex items-start">
+                  <Icon name="CheckCircle" size={20} className="text-ai-blue mr-3 mt-1 flex-shrink-0" />
+                  <span className="text-gray-300">Работа с текстами и переводы</span>
+                </li>
+                <li className="flex items-start">
+                  <Icon name="CheckCircle" size={20} className="text-ai-blue mr-3 mt-1 flex-shrink-0" />
+                  <span className="text-gray-300">SyntX AI удалить фон на видео и другие инструменты обработки</span>
+                </li>
+              </ul>
+              
+              <p className="text-gray-400">
+                Как пользоваться SyntX AI через Telegram бот интуитивно понятно даже новичкам. Достаточно написать команду или отправить файл, и чат бот SyntX мгновенно обработает запрос.
+              </p>
+              
+              <Card className="bg-ai-blue/10 border-ai-blue/30">
+                <CardContent className="p-6">
+                  <p className="text-gray-300">
+                    <strong className="text-ai-blue">SyntX AL бот в Telegram</strong> представляет собой облегченную версию с базовым функционалом, идеальную для начинающих пользователей. Подробные инструкции доступны в документации платформы.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+            
+            <div className="flex justify-center">
+              <div className="relative">
+                <div className="w-64 h-80 bg-gradient-to-br from-ai-blue/20 to-ai-purple/20 rounded-3xl p-6 border border-white/10">
+                  <div className="text-center space-y-4">
+                    <div className="w-16 h-16 bg-gradient-to-r from-ai-blue to-ai-purple rounded-full flex items-center justify-center mx-auto">
+                      <Icon name="MessageSquare" size={32} />
+                    </div>
+                    <h3 className="font-montserrat font-bold text-xl">Telegram Bot</h3>
+                    <p className="text-sm text-gray-400">Все возможности AI прямо в мессенджере</p>
+                    <Button className="w-full bg-gradient-to-r from-ai-blue to-ai-purple hover:from-ai-purple hover:to-ai-blue">
+                      Запустить бота
+                    </Button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Pricing Details Section */}
+      <section className="py-20 px-4 bg-white/5">
+        <div className="container mx-auto max-w-4xl">
+          <h2 className="text-3xl md:text-4xl font-montserrat font-bold mb-8 text-center">
+            Тарифы и подписка SyntX AI: <span className="text-ai-blue">выгодные предложения</span>
+          </h2>
+          
+          <div className="space-y-8">
+            <div className="text-lg text-gray-300 leading-relaxed space-y-4">
+              <p>
+                SyntX подписка предлагает гибкие тарифные планы для разных потребностей. SyntX тарифы включают базовый план с ограниченным количеством запросов, премиум-подписку с расширенными возможностями и корпоративные решения для бизнеса.
+              </p>
+              <p>
+                SyntX AI тарифы регулярно обновляются с учетом потребностей пользователей. Как оплатить SyntX — через различные платежные системы, включая банковские карты и электронные кошельки.
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <Card className="bg-gradient-to-br from-ai-blue/10 to-transparent border-ai-blue/30">
+                <CardHeader>
+                  <CardTitle className="text-xl font-montserrat text-ai-blue flex items-center">
+                    <Icon name="CreditCard" size={24} className="mr-2" />
+                    Промокоды и скидки
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-gray-300">
+                    SyntX промокод и SyntX AI промокод позволяют получить скидки на подписку. Актуальные промокоды публикуются в официальных каналах платформы.
+                  </p>
+                </CardContent>
+              </Card>
+              
+              <Card className="bg-gradient-to-br from-ai-purple/10 to-transparent border-ai-purple/30">
+                <CardHeader>
+                  <CardTitle className="text-xl font-montserrat text-ai-purple flex items-center">
+                    <Icon name="Crown" size={24} className="mr-2" />
+                    Премиум доступ
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-gray-300">
+                    SyntX AI подписка предоставляет доступ ко всем премиум-функциям, включая эксклюзивные модели ИИ. Купить подписку SyntX можно на официальном сайте или через Telegram-бота.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Free Access Section */}
+      <section className="py-20 px-4">
+        <div className="container mx-auto max-w-4xl">
+          <h2 className="text-3xl md:text-4xl font-montserrat font-bold mb-8 text-center">
+            SyntX бесплатно: <span className="text-ai-blue">как получить доступ без оплаты</span>
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <Card className="bg-gradient-to-br from-ai-blue/10 to-transparent border-ai-blue/30">
+              <CardHeader>
+                <CardTitle className="text-2xl font-montserrat text-ai-blue">SyntX AI Бесплатно</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <p className="text-gray-300">
+                  SyntX бесплатно доступен всем новым пользователям с базовым набором функций. SyntX AI бесплатно можно использовать для ознакомления с возможностями платформы.
+                </p>
+                <Button className="w-full bg-ai-blue hover:bg-ai-blue/80">
+                  Начать бесплатно
+                </Button>
+              </CardContent>
+            </Card>
+            
+            <Card className="bg-gradient-to-br from-ai-purple/10 to-transparent border-ai-purple/30">
+              <CardHeader>
+                <CardTitle className="text-2xl font-montserrat text-ai-purple">SyntX AL Бесплатно</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <p className="text-gray-300">
+                  SyntX AL бесплатно предлагает ограниченный, но функциональный набор инструментов для создания контента. Это отличный способ протестировать сервис перед покупкой полной подписки.
+                </p>
+                <Button className="w-full bg-ai-purple hover:bg-ai-purple/80">
+                  Попробовать AL
+                </Button>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Features Section */}
       <section id="features" className="py-20 px-4 bg-white/5">
         <div className="container mx-auto">
@@ -236,8 +417,145 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Learning Section */}
+      <section className="py-20 px-4">
+        <div className="container mx-auto max-w-4xl">
+          <h2 className="text-3xl md:text-4xl font-montserrat font-bold mb-8 text-center">
+            Обучение и инструкции <span className="text-ai-blue">SyntX AI</span>
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            <Card className="bg-gradient-to-br from-ai-blue/10 to-transparent border-ai-blue/30">
+              <CardHeader>
+                <CardTitle className="text-xl font-montserrat text-ai-blue flex items-center">
+                  <Icon name="BookOpen" size={24} className="mr-2" />
+                  Обучающие материалы
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <p className="text-gray-300">
+                  Обучение SyntX доступно через официальную документацию и видеоуроки. SyntX уроки охватывают все аспекты работы с платформой — от базовых функций до продвинутых техник.
+                </p>
+                <ul className="space-y-2 text-sm text-gray-400">
+                  <li>• Пошаговые инструкции по использованию</li>
+                  <li>• Примеры промптов для лучших результатов</li>
+                  <li>• SyntX AI инструкция по настройке и оптимизации</li>
+                </ul>
+              </CardContent>
+            </Card>
+            
+            <Card className="bg-gradient-to-br from-ai-purple/10 to-transparent border-ai-purple/30">
+              <CardHeader>
+                <CardTitle className="text-xl font-montserrat text-ai-purple flex items-center">
+                  <Icon name="Database" size={24} className="mr-2" />
+                  База знаний
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-300">
+                  SyntX AI база знаний содержит ответы на частые вопросы и детальные руководства по всем функциям платформы.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+          
+          <div className="space-y-8">
+            <h3 className="text-2xl font-montserrat font-bold text-center text-ai-purple">
+              Специальные возможности: фотосессии и видео
+            </h3>
+            
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+              <Card className="bg-white/5 border-white/10">
+                <CardHeader>
+                  <div className="w-12 h-12 bg-gradient-to-r from-ai-blue to-ai-purple rounded-lg flex items-center justify-center mb-4">
+                    <Icon name="Camera" size={24} />
+                  </div>
+                  <CardTitle className="text-white font-montserrat">Нейрофотосессия</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-gray-400 text-sm">
+                    Фотосессия в SyntX открывает новые горизонты для создания уникального визуального контента. Создавайте профессиональные портреты без физической съемки.
+                  </p>
+                </CardContent>
+              </Card>
+              
+              <Card className="bg-white/5 border-white/10">
+                <CardHeader>
+                  <div className="w-12 h-12 bg-gradient-to-r from-ai-blue to-ai-purple rounded-lg flex items-center justify-center mb-4">
+                    <Icon name="Video" size={24} />
+                  </div>
+                  <CardTitle className="text-white font-montserrat">Видео функционал</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-gray-400 text-sm">
+                    SyntX видео функционал включает создание анимации, монтаж и эффекты. Используйте передовые алгоритмы для видеообработки.
+                  </p>
+                </CardContent>
+              </Card>
+              
+              <Card className="bg-white/5 border-white/10">
+                <CardHeader>
+                  <div className="w-12 h-12 bg-gradient-to-r from-ai-blue to-ai-purple rounded-lg flex items-center justify-center mb-4">
+                    <Icon name="Image" size={24} />
+                  </div>
+                  <CardTitle className="text-white font-montserrat">Создание изображений</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-gray-400 text-sm">
+                    Делать свои фото в SyntX можно как с нуля, так и на основе загруженных изображений. Реалистичные результаты гарантированы.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Technical Features */}
+      <section className="py-20 px-4 bg-white/5">
+        <div className="container mx-auto max-w-4xl">
+          <h2 className="text-3xl md:text-4xl font-montserrat font-bold mb-8 text-center">
+            Технические особенности и <span className="text-ai-blue">доступность</span>
+          </h2>
+          
+          <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
+            <p>
+              SyntX сайт предоставляет полный доступ ко всем функциям платформы. SyntX AI сайт регулярно обновляется с добавлением новых возможностей.
+            </p>
+            <p>
+              SyntX официальный сайт является единственным источником достоверной информации о сервисе и его возможностях.
+            </p>
+            
+            <Card className="bg-ai-blue/10 border-ai-blue/30">
+              <CardContent className="p-6">
+                <p className="text-gray-300">
+                  <strong className="text-ai-blue">Важно:</strong> Если возникают проблемы с доступом, помните, что SyntX AI может не работать по техническим причинам, но команда поддержки оперативно решает все вопросы.
+                </p>
+              </CardContent>
+            </Card>
+            
+            <div>
+              <h3 className="text-2xl font-montserrat font-bold mb-4 text-ai-purple">Аналоги и конкуренты</h3>
+              <p>
+                Хотя существуют аналоги SyntX AI и другие сервисы, похожие на SyntX AI, данная платформа выделяется комплексным подходом и удобством использования. SyntX аналоги не предлагают такой же уровень интеграции с популярными мессенджерами и широты функционала.
+              </p>
+            </div>
+            
+            <div>
+              <h3 className="text-2xl font-montserrat font-bold mb-4 text-ai-blue">Заключение: почему выбирают SyntX AI</h3>
+              <p>
+                SyntX объединяет в себе мощь современного искусственного интеллекта с простотой использования. Благодаря SyntX AI возможностям пользователи могут решать творческие и бизнес-задачи любой сложности.
+              </p>
+              <p>
+                Гибкая система тарифов, качественная поддержка и постоянное развитие платформы делают SyntX AI оптимальным выбором для работы с нейросетями в 2025 году.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Reviews Section */}
-      <section id="reviews" className="py-20 px-4 bg-white/5">
+      <section id="reviews" className="py-20 px-4">
         <div className="container mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-montserrat font-bold mb-6">
@@ -246,6 +564,33 @@ const Index = () => {
             <p className="text-xl text-gray-400 max-w-2xl mx-auto">
               Узнайте, что говорят о SyntX AI наши клиенты
             </p>
+            
+            <div className="mt-8 space-y-4 max-w-3xl mx-auto text-left">
+              <p className="text-gray-300">
+                SyntX отзывы подтверждают высокое качество сервиса и удобство использования. SyntX AI отзывы особенно отмечают:
+              </p>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-gray-400">
+                <li className="flex items-center">
+                  <Icon name="CheckCircle" size={16} className="text-ai-blue mr-2" />
+                  Высокое качество генерируемого контента
+                </li>
+                <li className="flex items-center">
+                  <Icon name="CheckCircle" size={16} className="text-ai-blue mr-2" />
+                  Быстрая скорость обработки запросов
+                </li>
+                <li className="flex items-center">
+                  <Icon name="CheckCircle" size={16} className="text-ai-blue mr-2" />
+                  Удобный интерфейс и интеграция с Telegram
+                </li>
+                <li className="flex items-center">
+                  <Icon name="CheckCircle" size={16} className="text-ai-blue mr-2" />
+                  Адекватная ценовая политика
+                </li>
+              </ul>
+              <p className="text-gray-400 text-sm">
+                SyntX AI отзывы реальные от пользователей подчеркивают стабильность работы сервиса и качество технической поддержки. Отзывы о боте SyntX высоко оценивают удобство работы через Telegram.
+              </p>
+            </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {reviews.map((review, index) => (
