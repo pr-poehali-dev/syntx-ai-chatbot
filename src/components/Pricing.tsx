@@ -33,7 +33,7 @@ const Pricing = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-montserrat font-bold mb-6">
-            Выберите свой <span className="text-ai-purple">тариф</span>
+            Тарифы <span className="text-ai-purple">SyntX AI</span> - выберите свой план
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
             Гибкие тарифные планы для любых потребностей
